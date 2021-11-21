@@ -1,0 +1,62 @@
+#containerMotion {
+    width: 100%;
+}
+
+#containerMotion iframe {
+    width: 100%;
+    height: 750px;
+}
+
+#containerPart2 {
+    background-image: url(/Img/fondoSinGlobo.png);
+    height: 950px;
+    width: 100%;
+    background-size: 100%;
+}
+
+#containerPart2:hover {
+    background-image: url(/Img/fondoConGlobo.png);
+    height: 950px;
+    width: 100%;
+    transition: 2s;
+    background-size: 100%;
+}
+
+#containerPart3 {
+    background-image: url(/Img/img_3.png);
+    height: 850px;
+    width: 100%;
+    background-size: 100%;
+}
+
+img {
+    width: 100%;
+    height: 50px;
+}
+
+#containerPart4 {
+    background-image: url(/Img/Servicios.png);
+    height: 2200px;
+    width: 100%;
+    background-size: 100%;
+}
+
+footer {
+    background-image: url(/Img/BarraFooter.png);
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+}
+
+#containerSocial {
+    width: 75%;
+    margin-left: 12%;
+    padding-top: 17%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#containerSocial img{
+    width: 10%;
+    height: 30%;
+}
