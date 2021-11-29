@@ -57,28 +57,176 @@
 }
 
 #containerPart4 {
-    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637632848/edicaId/Servicios.png);
-    height: 2200px;
+    background-color: white;
+
+}
+
+.divDummy {
     width: 100%;
-    background-size: 100%;
+    
+}
+
+.containerImg {
+    width: 90%;
+    margin-left: 5%;
+    height: 330px;
+}
+
+.imgServicios {
+    width: 250px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+@keyframes changePositionRightToLeftEducacion {
+    from {margin-left: 24%}
+    to {margin-left: 0%}
+}
+
+#imgEducacion {
+    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img1.png);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containerText1 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    animation: changePositionRightToLeftEducacion 15s infinite linear alternate-reverse;
+}
+
+@keyframes changePositionLeftToRightIndustrial {
+    from {margin-left: 0%}
+    to {margin-left: 42%}
+}
+
+#imgIndustrial {
+    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img2.png);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containerText2 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    animation: changePositionLeftToRightIndustrial 15s infinite linear alternate-reverse;
+}
+
+@keyframes changePositionRightToLeftCorporativo {
+    from {margin-left: 62%}
+    to {margin-left: 0%}
+}
+
+#imgCorporativo {
+    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img3.png);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containerText3 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    animation: changePositionRightToLeftCorporativo 15s infinite linear alternate-reverse;
+}
+
+@keyframes changePositionLeftToRightComercial {
+    from {margin-left: 0%}
+    to {margin-left: 42%}
+}
+
+#imgComercial {
+    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img4.png);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containerText4 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    animation: changePositionLeftToRightComercial 15s infinite linear alternate-reverse;
+}
+
+@keyframes changePositionRightToLeftGubernamental {
+    from {margin-left: 62%}
+    to {margin-left: 0%}
+}
+
+#imgGubernamental {
+    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img5.png);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containerText5 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    animation: changePositionRightToLeftGubernamental 15s infinite linear alternate-reverse;
+}
+
+@keyframes changePositionLeftToRightHospitalario {
+    from {margin-left: 0%}
+    to {margin-left: 62%}
+}
+
+#imgHospitalario {
+    background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img6.png);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containerText6 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    animation: changePositionLeftToRightHospitalario 15s infinite linear alternate-reverse;
 }
 
 footer {
     background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637806334/edicaId/BarraFooter.png);
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     height: 200px;
     background-size: 100%;
-}
-
-#containerSocial {
-    width: 75%;
-    margin-left: 12%;
-    padding-top: 3%;
     display: flex;
     justify-content: space-around;
 }
 
+#containerSocial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #containerSocial img{
-    width: 10%;
-    height: 30%;
+    width: 20%;
+}
+
+#chateaConNosotros {
+    width: 50%;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
