@@ -283,6 +283,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-left: 50px;
     }
 
     .imgSocial{
