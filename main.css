@@ -212,19 +212,20 @@
         width: 90%;
         margin-left: 5%;
         height: 200px;
-        background-size: 100%;
+        background-size: cover;
         display: flex;
         justify-content: space-around;
     }
 
     #containerSocial {
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
     .imgSocial{
-        width: 20%;
+        width: 60%;
     }
 
     #chateaConNosotros {
@@ -233,6 +234,18 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    #chateaConNosotros {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    #imgChat {
+        width: 110%;
+    }
+
     /*Todo lo movil para que no se vea*/
     
     #containerMotionMovil, #containerCellphoneMovil {
@@ -258,7 +271,34 @@
     }
 
     footer {
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637806334/edicaId/BarraFooter.png);
         width: 100%;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+    }
+    #containerSocial {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .imgSocial{
+        width: 80%;
+    }
+
+    #chateaConNosotros {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    #imgChat {
+        width: 80%;
     }
 
     /*Todo lo pc para q no se vea*/
