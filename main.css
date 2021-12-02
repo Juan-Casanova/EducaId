@@ -247,11 +247,10 @@
 
     #containerMotionMovil iframe {
         width: 100%;
-        height: 450px;
     }
 
     /*Todo lo pc para q no se vea*/
-    #containerMotion {
+    #containerMotion #containerPart2 #containerPart3 #containerSeparator #containerPart4 {
         display: none;
     }
 }
