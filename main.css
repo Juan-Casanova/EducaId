@@ -257,6 +257,10 @@
         background-size: contain;
     }
 
+    footer {
+        width: 100%;
+    }
+
     /*Todo lo pc para q no se vea*/
     #containerMotion, #containerPart2, #containerPart3, #containerSeparator, #containerPart4 {
         display: none!important ;
