@@ -250,7 +250,7 @@
     }
 
     /*Todo lo pc para q no se vea*/
-    #containerMotion #containerPart2 #containerPart3 #containerSeparator #containerPart4 {
-        display: none;
+    #containerMotion, #containerPart2, #containerPart3, #containerSeparator, #containerPart4 {
+        display: none!important ;
     }
 }
