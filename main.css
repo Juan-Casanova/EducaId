@@ -248,7 +248,7 @@
 
     /*Todo lo movil para que no se vea*/
     
-    #containerMotionMovil, #containerCellphoneMovil {
+    #containerMotionMovil, #containerCellphoneMovil, containerPart3Movil {
         display: none;
     }
 }
@@ -268,6 +268,12 @@
         height: 650px;
         background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638414378/edicaId/Movil/FONDO_INICIO.png);
         background-size: contain;
+    }
+
+    #containerPart3Movil {
+        height: 650px;
+        width: 100%;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638546928/edicaId/Movil/IMG_1.png);        
     }
 
     footer {
