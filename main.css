@@ -248,7 +248,7 @@
 
     /*Todo lo movil para que no se vea*/
     
-    #containerMotionMovil, #containerCellphoneMovil, containerPart3Movil {
+    #containerMotionMovil, #containerCellphoneMovil, #containerPart3Movil, #containerPart4Movil, #containerServicio1Movil, #containerServicio2Movil, #containerServicio3Movil, #containerServicio4Movil, #containerServicio5Movil, #containerServicio6Movil{
         display: none;
     }
 }
@@ -274,6 +274,55 @@
         width: 100%;
         height: 750px;
         background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638546928/edicaId/Movil/IMG_1.png);
+        background-position: center;
+    }
+
+    #containerPart4Movil {
+        width: 100%;
+        height: 750px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577168/edicaId/Movil/IMG_2.png);
+        background-position: center;
+    }
+
+    #containerServicio1Movil {
+        width: 100%;
+        height: 1500px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577882/edicaId/Movil/Educa-ID_SERVICIOSSERV_Edu.jpg);
+        background-position: center;
+    }
+
+    #containerServicio2Movil {
+        width: 100%;
+        height: 650px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577882/edicaId/Movil/Educa-ID_SERVICIOSSERV_Ind.jpg);
+        background-position: center;
+    }
+
+    #containerServicio3Movil {
+        width: 100%;
+        height: 650px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577881/edicaId/Movil/Educa-ID_SERVICIOSSER_Crop.jpg);
+        background-position: center;
+    }
+
+    #containerServicio4Movil {
+        width: 100%;
+        height: 650px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577880/edicaId/Movil/Educa-ID_SERVICIOSSERV_Comercial.jpg);
+        background-position: center;
+    }
+
+    #containerServicio5Movil {
+        width: 100%;
+        height: 650px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577880/edicaId/Movil/Educa-ID_SERVICIOSSERV_Gub.jpg);
+        background-position: center;
+    }
+
+    #containerServicio6Movil {
+        width: 100%;
+        height: 650px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577881/edicaId/Movil/Educa-ID_SERVICIOSSERV_Hosp.jpg);
         background-position: center;
     }
 
