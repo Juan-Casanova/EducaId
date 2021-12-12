@@ -248,7 +248,7 @@
 
     /*Todo lo movil para que no se vea*/
     
-    #containerMotionMovil, #containerCellphoneMovil, #containerPart3Movil, #containerPart4Movil, #containerServicio1Movil, #containerServicio2Movil, #containerServicio3Movil, #containerServicio4Movil, #containerServicio5Movil, #containerServicio6Movil{
+    #containerMotionMovil, #containerCellphoneMovil, #containerPart3Movil, #containerPart4Movil, #containerServicio1Movil, #containerServicio2Movil, #containerServicio3Movil, #containerServicio4Movil, #containerServicio5Movil, #containerServicio6Movil, #containerPart5Movil{
         display: none;
     }
 }
@@ -277,10 +277,17 @@
         background-position: center;
     }
 
-    #containerPart4Movil {
+    #containerPart4Movil{
         width: 100%;
         height: 750px;
         background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577168/edicaId/Movil/IMG_2.png);
+        background-position: center;
+    }
+
+    #containerPart5Movil {
+        width: 100%;
+        height: 750px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577541/edicaId/Movil/IMG_3.png);
         background-position: center;
     }
 
@@ -377,6 +384,13 @@
         width: 100%;
         height: 462px;
         background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638912468/edicaId/Movil/Movil%202/foto_2.png);
+        background-position: center;
+    }
+
+    #containerPart5Movil {
+        width: 100%;
+        height: 462px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638912467/edicaId/Movil/Movil%202/foto_3.png);
         background-position: center;
     }
 
