@@ -269,8 +269,8 @@
     }
 
     #containerCellphoneMovil video {
-        width: 90%;
-        margin-left: 7%;
+        width: 100%;
+        
     }
 
     #containerPart3Movil {
@@ -456,6 +456,7 @@
 }
 
 #containerExtras a {
-    color: black;
+    color: white;
     text-align: center;
+    text-decoration: none;
 }
