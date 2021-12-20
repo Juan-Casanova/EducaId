@@ -3,7 +3,7 @@
         width: 100%;
     }
 
-    #containerMotion iframe {
+    #containerMotion video {
         width: 100%;
         height: 750px;
     }
@@ -35,8 +35,9 @@
 
     #containerPart3 {
         background-color: white;
-        height: 775px;
-        width: 100%;
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
     }
 
     #containerImgStandar {
@@ -50,9 +51,10 @@
 
     #containerSeparator {
         width: 90%;
-        height: 100px;
+        height: 200px;
         margin-left: 5%;
-        background-color: white;
+        background-position: center;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639945207/edicaId/Ultimos%20cambios/Barra_Nuestros_Servicios.png);
     }
 
     #separator {
@@ -87,7 +89,7 @@
     }
 
     #imgEducacion {
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img1.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639954103/edicaId/Ultimos%20cambios/pc/1.png);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -108,7 +110,7 @@
     }
 
     #imgIndustrial {
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img2.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639954102/edicaId/Ultimos%20cambios/pc/2.png);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -129,7 +131,7 @@
     }
 
     #imgCorporativo {
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img3.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639954103/edicaId/Ultimos%20cambios/pc/3.png);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -150,7 +152,7 @@
     }
 
     #imgComercial {
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img4.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639954102/edicaId/Ultimos%20cambios/pc/4.png);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -171,7 +173,7 @@
     }
 
     #imgGubernamental {
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img5.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639954102/edicaId/Ultimos%20cambios/pc/5.png);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -188,11 +190,11 @@
 
     @keyframes changePositionLeftToRightHospitalario {
         from {margin-left: 0%}
-        to {margin-left: 62%}
+        to {margin-left: 42%}
     }
 
     #imgHospitalario {
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1637895408/edicaId/img6.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639954102/edicaId/Ultimos%20cambios/pc/6.png);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -259,6 +261,12 @@
 }
 
 @media screen and (max-width: 992px) {
+
+    #containerSeparator {
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639945207/edicaId/Ultimos%20cambios/BARRA_SERVICIOS_1.png);
+        height: 200px;
+    }
+
     #containerMotionMovil {
         width: 100%;
     }
@@ -280,65 +288,75 @@
 
     #containerPart3Movil {
         width: 100%;
-        height: 750px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639632840/edicaId/Movil/segundosCambios/Escritorio_3.png);
-        background-position: center;
+        height: 1100px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953867/edicaId/Ultimos%20cambios/tabley/IMG_1.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerPart4Movil{
         width: 100%;
-        height: 750px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577168/edicaId/Movil/IMG_2.png);
-        background-position: center;
+        height: 1100px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953869/edicaId/Ultimos%20cambios/tabley/IMG_2.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerPart5Movil {
         width: 100%;
-        height: 750px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577541/edicaId/Movil/IMG_3.png);
+        height: 1100px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953870/edicaId/Ultimos%20cambios/tabley/IMG_3.png);
         background-position: center;
+        background-size: cover;
+        background-position: top;
     }
 
     #containerServicio1Movil {
         width: 100%;
-        height: 1500px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577882/edicaId/Movil/Educa-ID_SERVICIOSSERV_Edu.jpg);
-        background-position: center;
+        height: 1750px;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953867/edicaId/Ultimos%20cambios/tabley/SERV_1.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerServicio2Movil {
         width: 100%;
         height: 650px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577882/edicaId/Movil/Educa-ID_SERVICIOSSERV_Ind.jpg);
-        background-position: center;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953867/edicaId/Ultimos%20cambios/tabley/SERV_2.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerServicio3Movil {
         width: 100%;
         height: 650px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577881/edicaId/Movil/Educa-ID_SERVICIOSSER_Crop.jpg);
-        background-position: center;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953867/edicaId/Ultimos%20cambios/tabley/SERV_3.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerServicio4Movil {
         width: 100%;
         height: 650px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577880/edicaId/Movil/Educa-ID_SERVICIOSSERV_Comercial.jpg);
-        background-position: center;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953867/edicaId/Ultimos%20cambios/tabley/SERV_4.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerServicio5Movil {
         width: 100%;
         height: 650px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577880/edicaId/Movil/Educa-ID_SERVICIOSSERV_Gub.jpg);
-        background-position: center;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953866/edicaId/Ultimos%20cambios/tabley/SERV_5.png);
+        background-size: cover;
+        background-position: top;
     }
 
     #containerServicio6Movil {
         width: 100%;
         height: 650px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638577881/edicaId/Movil/Educa-ID_SERVICIOSSERV_Hosp.jpg);
-        background-position: center;
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953867/edicaId/Ultimos%20cambios/tabley/SERV_6.png);
+        background-size: cover;
+        background-position: top;
     }
 
     footer {
@@ -374,7 +392,7 @@
     }
 
     /*Todo lo pc para q no se vea*/
-    #containerMotion, #containerPart2, #containerPart3, #containerSeparator, #containerPart4 {
+    #containerMotion, #containerPart2, #containerPart3, #containerPart4 {
         display: none!important ;
     }
 }
@@ -384,14 +402,14 @@
     #containerPart3Movil {
         width: 100%;
         height: 457px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/Movil.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953787/edicaId/Ultimos%20cambios/cel/IMG_1.png);
         background-position: center;
     }
 
     #containerPart4Movil {
         width: 100%;
         height: 462px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638912468/edicaId/Movil/Movil%202/foto_2.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953787/edicaId/Ultimos%20cambios/cel/IMG_2.png);
         background-position: bottom;
         background-size: cover;
     }
@@ -399,15 +417,20 @@
     #containerPart5Movil {
         width: 100%;
         height: 462px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1638912467/edicaId/Movil/Movil%202/foto_3.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953787/edicaId/Ultimos%20cambios/cel/IMG_3.png);
         background-position: bottom;
+        background-size: cover;
+    }
+
+    #containerSeparator {
+        height: 200px;
         background-size: cover;
     }
 
     #containerServicio1Movil {
         width: 100%;
         height: 1500px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/Educativo.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953737/edicaId/Ultimos%20cambios/cel/Serv_1.png);
         background-size: cover;
         background-position: top;
     }
@@ -415,7 +438,7 @@
     #containerServicio2Movil {
         width: 100%;
         height: 600px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/SERV_2.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953737/edicaId/Ultimos%20cambios/cel/SERV_2.png);
         background-size: cover;
         background-position: top;
     }
@@ -423,7 +446,7 @@
     #containerServicio3Movil {
         width: 100%;
         height: 600px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/SERV_3.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953737/edicaId/Ultimos%20cambios/cel/Serv_3.png);
         background-size: cover;
         background-position: top;
     }
@@ -431,7 +454,7 @@
     #containerServicio4Movil {
         width: 100%;
         height: 600px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/SERV_4.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953737/edicaId/Ultimos%20cambios/cel/SERV_4.png);
         background-size: cover;
         background-position: top;
     }
@@ -439,7 +462,7 @@
     #containerServicio5Movil {
         width: 100%;
         height: 600px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/SERV_5.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953737/edicaId/Ultimos%20cambios/cel/SERV_5.png);
         background-size: cover;
         background-position: top;
     }
@@ -447,7 +470,7 @@
     #containerServicio6Movil {
         width: 100%;
         height: 600px;
-        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639621591/edicaId/Movil/segundosCambios/SERV_6.png);
+        background-image: url(https://res.cloudinary.com/pelos-locos/image/upload/v1639953737/edicaId/Ultimos%20cambios/cel/SERV_6.png);
         background-size: cover;
         background-position: top;
     }
@@ -477,6 +500,103 @@
     display: none;
 }
 
+@media screen and (max-width:350px) {
+
+    #containerServicio1Movil {
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 700px;
+    }
+
+    #containerSeparator {
+        height: 85px;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width:365px){
+
+    #containerServicio1Movil {
+        background-repeat: no-repeat;
+        height: 650px;
+        background-size: cover;
+    }
+
+    #containerServicio2Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+    }
+
+    #containerServicio3Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+    }
+
+    #containerServicio4Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+    }
+
+    #containerServicio5Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+    }
+
+    #containerServicio6Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    #containerSeparator {
+        height: 130px;
+        background-size: cover;
+    }
+
+    #containerServicio1Movil {
+        background-repeat: no-repeat;
+        height: 950px;
+        background-size: cover;
+    }
+
+    #containerServicio2Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    #containerServicio3Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    #containerServicio4Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    #containerServicio5Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    #containerServicio6Movil {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+}
+
 @media screen and (orientation:landscape) and (min-width:992px) {
     .imgServicios {
         width: 160px;
@@ -501,7 +621,7 @@
     }
 
     #containerPart3 {
-        height: 900px;
+        height: auto;
     }
 
     .containerImg {
@@ -531,7 +651,7 @@
     }
 
     #containerPart3 {
-        height: 900px;
+        height: auto;
     }
 
     .containerImg {
@@ -551,17 +671,17 @@
 }
 
 @media screen and (min-width:1750px) {
-    #containerMotion iframe {
+    #containerMotion video {
         width: 100%;
         height: 1400px;
     }
 
     #containerPart2 {
-        height: 1400px;
+        height: 1700px;
     }
 
     #containerPart3 {
-        height: 1250px;
+        height: auto;
     }
 
     .containerImg {
@@ -588,5 +708,108 @@
 
     #containerSocial .imgSocial {
         width: 120%;
+    }
+    #containerSeparator {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:2500px) {
+    #containerPart2 {
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width:2300px) {
+    #containerPart2 {
+        height: 1400px;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    #containerPart2 {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width:1775px) {
+    #containerPart2 {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    #containerPart2 {
+        height: 850px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    #containerPart2 {
+        height: 650px;
+    }
+}
+
+@media screen and (min-width:3072px) {
+    #containerPart2 {
+        height: 2250px;
+    }
+
+    #containerCellPhone {
+        background-size: cover;
+    }
+
+    #containerCellPhone:hover{
+        background-size: cover;
+    }
+
+    #containerPart3 {
+        height: auto;
+    }
+    .containerImg {
+        height: 900px;
+    }
+    .imgServicios {
+        width: 500px;
+        height: 250px;
+    }
+
+    #containerSeparator {
+        height: 400px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:4096px) {
+    #containerPart2 {
+        height: 2500px;
+    }
+
+    #containerCellPhone {
+        background-size: cover;
+    }
+
+    #containerCellPhone:hover{
+        background-size: cover;
+    }
+
+    #containerPart3 {
+        height: auto;
+    }
+
+    #containerSeparator {
+        height: 450px;
+        background-size: cover;
+    }
+
+    .containerImg {
+        height: 900px;
+    }
+
+    .imgServicios {
+        width: 500px;
+        height: 250px;
     }
 }
