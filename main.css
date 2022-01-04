@@ -917,7 +917,7 @@
   .slider1 {
     
     /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-    height: 100px;
+    height: 200px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -985,7 +985,7 @@
   .slider2 {
     
     /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-    height: 100px;
+    height: 200px;
     margin: auto;
     overflow: hidden;
     position: relative;
