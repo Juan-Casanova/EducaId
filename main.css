@@ -74,7 +74,9 @@
     .containerImg {
         width: 90%;
         margin-left: 5%;
-        height: 330px;
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .imgServicios {
@@ -821,72 +823,6 @@
         height: 250px;
     }
 }
-/*****************************************************************/
-/*PARA SERVICIOS CON DOS SERVICIOS*/
-/*******************************************************************/
-
-  @-webkit-keyframes scroll {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(calc(-350px * 1));
-              transform: translateX(calc(-350px * 1));
-    }
-  }
-  
-  @keyframes scroll {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(calc(-350px * 1));
-              transform: translateX(calc(-350px * 1));
-    }
-  }
-  .slider {
-    
-    /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-    height: 100px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 95%;
-  }
-  .slider::before, .slider::after {
-    
-    content: "";
-    height: 100px;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-  }
-  .slider::after {
-    right: 0;
-    top: 0;
-    -webkit-transform: rotateZ(180deg);
-            transform: rotateZ(180deg);
-  }
-  .slider::before {
-    left: 0;
-    top: 0;
-  }
-  .slider .slide-track {
-    -webkit-animation: scroll 10s linear infinite;
-            animation: scroll 10s linear infinite;
-    display: flex;
-    width: calc(350px * 1);
-  }
-  .slider .slide {
-    height: 50px;
-    width: 350px;
-  }
-  
-  .slide img{
-    padding: 5px;
-  }
 
   /*****************************************************************/
 /*PARA SERVICIOS educacion*/
@@ -917,7 +853,7 @@
   .slider1 {
     
     /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-    height: 200px;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -985,7 +921,7 @@
   .slider2 {
     
     /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
-    height: 200px;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     position: relative;
